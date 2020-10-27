@@ -28,7 +28,7 @@ export default class User extends Component {
   render () {
     let { data, firstName, age, gender } = this.state
     let fields = {
-      name: firstName,
+      firstName: firstName,
       age: age,
       gender: gender
     }
@@ -64,7 +64,7 @@ export default class User extends Component {
 
             <Board id='board1' className='board1'>
               {data.map((item, i) => (
-                <Card id={`card${i}`} className='card' draggable={true}>
+                <Card id={`card${i}`} key={i} className='card' draggable={true}>
                   <Row>
                     {/* <Col span={4}>
                       <label>{i + 1}.</label>

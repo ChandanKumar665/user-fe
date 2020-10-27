@@ -1,13 +1,10 @@
 import React from 'react'
 
 const Board = props => {
-  console.log(props.id)
   const drop = e => {
-    console.log('here')
     e.preventDefault()
     const card_id = e.dataTransfer.getData('card_id')
     const card = document.getElementById(card_id)
-    // card.style.display = 'block'
     e.target.appendChild(card)
   }
   const dragOver = e => {
