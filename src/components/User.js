@@ -27,6 +27,7 @@ export default class User extends Component {
 
   render () {
     let { data, firstName, age, gender } = this.state
+    console.log(this.state)
     let fields = {
       firstName: firstName,
       age: age,

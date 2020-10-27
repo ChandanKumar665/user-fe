@@ -59,7 +59,6 @@ export default class Profile extends Component {
 
   render () {
     let { list, firstName, gender, age } = this.state
-    console.log(firstName)
     if (!secureStorage.getItem('userData')) {
       return <Redirect to={'/login'} />
     }
@@ -67,7 +66,7 @@ export default class Profile extends Component {
       <div className='container'>
         <Header />
         <h2>Welcome {firstName}</h2>
-        <User name={firstName} gender={gender} age={age} />
+        {firstName ? <User name={firstName} gender={gender} age={age} /> : ''}
       </div>
     )
   }
