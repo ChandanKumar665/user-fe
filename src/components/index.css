@@ -1,0 +1,71 @@
+.site-card-border-less-wrapper {
+  padding: 16px;
+}
+.container {
+  padding: 32px;
+}
+.add-title {
+  width: 50%;
+  display: flex;
+}
+.edit {
+  display: flex;
+}
+.lbl-text {
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.app-list {
+  margin-top: 16px;
+  display: flex;
+}
+.login-form {
+  width: 50%;
+  padding: 48px;
+}
+.desc {
+  margin-top: 10px;
+  border: 1px solid #80808054;
+  padding: 8px;
+  height: 300px;
+  text-align: left;
+}
+.add-btn {
+  margin: 16px;
+}
+.ant-card-head {
+  /* text-align: left; */
+}
+.user-details {
+  padding: 8px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+}
+.list {
+  max-height: 500px;
+  overflow-y: scroll;
+  padding: 8px;
+}
+.antcol {
+  text-align: left;
+}
+.card {
+  margin: 8px;
+  color: #555;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.board1 {
+  background-color: #555;
+  width: 250px;
+  height: 400px;
+  margin: 32px;
+}
+.wrapper {
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  justify-content: center;
+}
